@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Select report"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+
+    <CheckBox
+        android:id="@+id/vurBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="VUR"
+        android:textColor="@color/white" />
+
+    <CheckBox
+        android:id="@+id/timeLogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="Time Log"
+        android:textColor="@color/white" />
+
+
+    <CheckBox
+        android:id="@+id/robBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="ROB"
+        android:textColor="@color/white" />
+
+
+    <CheckBox
+        android:id="@+id/vefBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="VEF"
+        android:textColor="@color/white" />
+
+</LinearLayout>

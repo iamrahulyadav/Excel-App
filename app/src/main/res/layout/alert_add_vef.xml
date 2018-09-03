@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voyage"
+        android:textSize="17dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="#"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/voyageNumberField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:hint="Field"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textColorHint="#80ffffff" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Load Port"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/loadPortField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:hint="Field"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textColorHint="#80ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Cargo"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/cargoField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:hint="Field"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textColorHint="#80ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Barge Volume"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/bargeVolumeField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:hint="Field"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textColorHint="#80ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Shore Volume"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/shoreVolumeField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:hint="Field"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textColorHint="#80ffffff" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

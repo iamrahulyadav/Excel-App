@@ -1,0 +1,270 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.ansoft.excelapplication.VURFragment">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Report"
+        android:textSize="17dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Port"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/portField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:hint="Field"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Terminal"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/terminalField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:hint="Field"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Voyage #"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/voyageField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:inputType="numberDecimal"
+                android:hint="Field"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Product"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/productField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:hint="Field"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Density @ 60 (F)"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/gsField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:inputType="numberDecimal"
+                android:hint="Field"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Draft Fwd"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/draftField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:hint="feet"
+                android:padding="10dp"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/draftsField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:hint="inch"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Aft"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/aftField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:hint="feet"
+                android:padding="10dp"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/aftsField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:hint="inch"
+                android:padding="10dp"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voyage # : "
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:id="@+id/voyageNumber" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load Port (Terminal) : "
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:id="@+id/loadport" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cargo : "
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:id="@+id/cargo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barge Volume : "
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:id="@+id/bargevol" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shore Volume : "
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:id="@+id/shorevol" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VEF Factor : "
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:id="@+id/vefFactor" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pass : "
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:id="@+id/pass" />
+    </LinearLayout>
+
+</LinearLayout>

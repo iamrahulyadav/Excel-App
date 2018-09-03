@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.ansoft.excelapplication.MainActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
+            app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+            app:tabSelectedTextColor="@android:color/white"
+            app:tabTextColor="#80FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:tabMode="scrollable"
+            app:tabIndicatorHeight="3dp"
+            app:tabIndicatorColor="#ffffff"
+            app:tabGravity="fill"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        android:layout_above="@+id/content"
+        />
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/saveDataBtn"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:text="Save Report"
+                android:textColor="@color/white" />
+
+
+            <Button
+                android:id="@+id/addVefBtn"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:text="Add to VEF"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/saveReportBtn"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:text="Save as PDF"
+                android:textColor="@color/white" />
+
+
+            <Button
+                android:id="@+id/emailReportBtn"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_button"
+                android:text="Email Report"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/progressMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBar2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Message"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tank Data"
+        android:textSize="17dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Tank 1P"
+                android:gravity="center"
+                android:background="@drawable/bg_item"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Ullage"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/feet1p"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Feet"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+
+                <EditText
+                    android:id="@+id/inch1p"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Inch"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+                    >
+
+                    <EditText
+                        android:id="@+id/fraction1p"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:hint="N"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="#80ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="/"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                    <EditText
+                        android:id="@+id/fraction1p1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:hint="D"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="#80ffffff"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:padding="10dp"
+                    android:text="Temp."
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/temp1p"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Temperature \u2103"
+                    android:inputType="numberDecimal"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Tank 1S"
+                android:gravity="center"
+                android:background="@drawable/bg_item"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Ullage"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/feet1s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Feet"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+
+                <EditText
+                    android:id="@+id/inch1s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Inch"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+                    >
+
+                    <EditText
+                        android:id="@+id/fraction1s"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:hint="N"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="#80ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="/"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                    <EditText
+                        android:id="@+id/fraction1s1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:hint="D"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="#80ffffff"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:padding="10dp"
+                    android:text="Temp."
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/temp1s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Temperature \u2103"
+                    android:inputType="numberDecimal"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Tank 2P"
+                android:gravity="center"
+                android:background="@drawable/bg_item"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Ullage"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/feet2p"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Feet"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+
+                <EditText
+                    android:id="@+id/inch2p"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Inch"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+                    >
+
+                    <EditText
+                        android:id="@+id/fraction2p"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:hint="N"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="#80ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="/"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                    <EditText
+                        android:id="@+id/fraction2p1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:hint="D"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="#80ffffff"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:padding="10dp"
+                    android:text="Temp."
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/temp2p"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Temperature \u2103"
+                    android:inputType="numberDecimal"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Tank 2S"
+                android:gravity="center"
+                android:background="@drawable/bg_item"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Ullage"
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/feet2s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Feet"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+
+                <EditText
+                    android:id="@+id/inch2s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Inch"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+                    >
+
+                    <EditText
+                        android:id="@+id/fraction2s"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:hint="N"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:textColor="@color/white"
+                        android:textColorHint="#80ffffff"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="/"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                    <EditText
+                        android:id="@+id/fraction2s1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:hint="D"
+                        android:inputType="number"
+                        android:maxLength="1"
+                        android:textColor="@color/white"
+                        android:textColorHint="#80ffffff"
+                        android:textSize="16dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:padding="10dp"
+                    android:text="Temp."
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
+
+                <EditText
+                    android:id="@+id/temp2s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:hint="Temperature \u2103"
+                    android:inputType="numberDecimal"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#80ffffff"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:background="@color/colorPrimary"
+                android:padding="10dp"
+                android:text="Time Data"
+                android:textColor="@color/white"
+                android:textSize="17dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_item"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Commence Load/discharge:"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TimePicker
+                android:id="@+id/commenceLD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_item"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Complete Load/discharge:"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TimePicker
+                android:id="@+id/completeLD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_item"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="NOR Tendered :"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TimePicker
+                android:id="@+id/nortendered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_item"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Fueling the barge (Stop Time)"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TimePicker
+                android:id="@+id/fuelingstop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_item"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Fueling the barge (Start Time)"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TimePicker
+                android:id="@+id/fuelingstart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_item"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Shore Stop"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TimePicker
+                android:id="@+id/shorestop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/bg_item"
+                android:gravity="center"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="Shore Start"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TimePicker
+                android:id="@+id/shorestart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "105227868234",
+    "firebase_url": "https://excel-application.firebaseio.com",
+    "project_id": "excel-application",
+    "storage_bucket": "excel-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105227868234:android:694dfb9e7fe9fee7",
+        "android_client_info": {
+          "package_name": "com.ansoft.excelapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105227868234-pcsho4isemctpe2vtr0olkespis6e8j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM2BD0_7fkgY2nLDAU4EXMhGt_4CSHIRc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
